@@ -1,0 +1,36 @@
+/* Обнуляем маргины и падинги, делаем border-box для удобства*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.knights-move {
+  margin-top: 5rem;
+  margin-left: 5rem;
+}
+
+.knights-move span {
+  display: inline-block;
+  margin-bottom: 0.2rem;
+}
+
+.form {
+  border: 1px solid #b7b7b7;
+  width: 18rem;
+  padding: 0.5rem;
+}
+
+.form label {
+  font-weight: bold;
+}
+
+#position {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+#search {
+  padding: 0 0.3rem;
+}
